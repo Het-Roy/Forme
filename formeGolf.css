@@ -1,0 +1,428 @@
+ * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        /* Header Navigation */
+        header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(64, 64, 64, 0.95);
+            padding: 1.2rem 5%;
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.8rem;
+            font-weight: 300;
+            letter-spacing: 0.15em;
+            color: white;
+        }
+
+        .logo img {
+            height: 35px;
+        }
+
+        nav {
+            display: flex;
+            gap: 2.5rem;
+            align-items: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 1rem;
+            transition: opacity 0.3s;
+        }
+
+        nav a:hover {
+            opacity: 0.7;
+        }
+
+        .golf-link {
+            border-bottom: 2px solid white;
+            padding-bottom: 4px;
+        }
+
+        .contact-btn {
+            background: #4A90E2;
+            padding: 0.8rem 2rem;
+            border-radius: 25px;
+            color: white !important;
+        }
+
+        .contact-btn:hover {
+            opacity: 0.9;
+        }
+
+        /* Hero Section */
+        .hero {
+            min-height: 100vh;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            align-items: center;
+            padding: 0 5%;
+            position: relative;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.3);
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            max-width: 600px;
+            color: white;
+        }
+
+        .hero h1 {
+            font-size: 4.5rem;
+            font-weight: 700;
+            line-height: 1.1;
+            margin-bottom: 2rem;
+            letter-spacing: -0.02em;
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            font-weight: 300;
+        }
+
+        .find-forme {
+            margin-top: 4rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.95rem;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+        }
+
+        .find-forme::before {
+            content: '↓';
+            font-size: 1.2rem;
+        }
+
+        /* Testimonial Section */
+        .testimonial {
+            background: #F5F3F0;
+            padding: 6rem 5%;
+            display: flex;
+            gap: 4rem;
+            align-items: center;
+        }
+
+        .testimonial-image {
+            flex: 1;
+        }
+
+        .testimonial-image img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .testimonial-content {
+            flex: 1;
+        }
+
+        .testimonial-content blockquote {
+            font-size: 1.5rem;
+            line-height: 1.6;
+            color: #1a1a1a;
+            margin-bottom: 2rem;
+        }
+
+        .testimonial-author {
+            font-size: 1.1rem;
+            color: #666;
+        }
+
+        .testimonial-author-title {
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-top: 0.5rem;
+        }
+
+        /* Advantages Section */
+        .advantages {
+            background: #2C2C2C;
+            color: white;
+            padding: 6rem 5%;
+        }
+
+        .advantages h2 {
+            font-size: 3rem;
+            margin-bottom: 3rem;
+            font-weight: 600;
+        }
+
+        .advantages-intro {
+            font-size: 1.2rem;
+            max-width: 700px;
+            margin-bottom: 3rem;
+            line-height: 1.7;
+            color: #ddd;
+        }
+
+        .advantages-list {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .advantage-item {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 2rem;
+            border-radius: 8px;
+            display: flex;
+            gap: 1.5rem;
+        }
+
+        .checkmark {
+            color: #E89B4A;
+            font-size: 1.5rem;
+            flex-shrink: 0;
+        }
+
+        .advantage-content h3 {
+            font-size: 1.3rem;
+            margin-bottom: 0.8rem;
+            font-weight: 600;
+        }
+
+        .advantage-content p {
+            color: #ccc;
+            line-height: 1.6;
+        }
+
+        .demo-btn {
+            display: inline-block;
+            background: #F5F3F0;
+            color: #2C2C2C;
+            padding: 1rem 2.5rem;
+            border-radius: 4px;
+            text-decoration: none;
+            margin-top: 2rem;
+            font-weight: 600;
+        }
+
+        /* Golf in Action Section */
+        .golf-action {
+            background: #F5F3F0;
+            padding: 6rem 5%;
+        }
+
+        .golf-action h2 {
+            font-size: 3rem;
+            margin-bottom: 4rem;
+            color: #1a1a1a;
+        }
+
+        .action-items {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 4rem;
+        }
+
+        .action-item {
+            display: flex;
+            gap: 3rem;
+            align-items: center;
+        }
+
+        .action-item:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+
+        .action-image {
+            flex: 1.2;
+        }
+
+        .action-image img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .action-content {
+            flex: 1;
+        }
+
+        .action-content h3 {
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            color: #1a1a1a;
+        }
+
+        .action-content p {
+            font-size: 1.1rem;
+            line-height: 1.7;
+            color: #666;
+        }
+
+        /* Results Section */
+        .results {
+            background: #2C2C2C;
+            color: white;
+            padding: 6rem 5%;
+        }
+
+        .results h2 {
+            font-size: 3rem;
+            margin-bottom: 4rem;
+            text-align: center;
+        }
+
+        .results-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 3rem;
+            margin-bottom: 4rem;
+        }
+
+        .result-item h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+
+        .result-item p {
+            color: #ccc;
+            line-height: 1.6;
+        }
+
+        .results-cta {
+            text-align: center;
+            margin-top: 4rem;
+        }
+
+        .results-cta h3 {
+            font-size: 1.8rem;
+            margin-bottom: 2rem;
+        }
+
+        .results-cta p {
+            font-size: 1.9rem;
+            line-height: 1.5;
+            max-width: 1200px;
+            margin: 0 auto;
+            font-weight: 300;
+        }
+
+        /* CTA Cards Section */
+        .cta-cards {
+            background: #F5F3F0;
+            padding: 6rem 5%;
+        }
+
+        .cta-card {
+            background: linear-gradient(135deg, #E89B4A, #E8A85A);
+            padding: 3rem;
+            border-radius: 12px;
+            margin-bottom: 2rem;
+            color: white;
+        }
+
+        .cta-card h3 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .cta-card p {
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+        }
+
+        .cta-card a {
+            display: inline-block;
+            background: white;
+            color: #2C2C2C;
+            padding: 0.9rem 2rem;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        /* Footer */
+        footer {
+            background: #000;
+            color: white;
+            padding: 4rem 5% 2rem;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 3rem;
+            margin-bottom: 3rem;
+        }
+
+        .footer-column h4 {
+            font-size: 1.1rem;
+            margin-bottom: 1.5rem;
+            font-weight: 600;
+        }
+
+        .footer-column a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            margin-bottom: 0.8rem;
+            font-size: 0.95rem;
+        }
+
+        .footer-column a:hover {
+            opacity: 0.7;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid #333;
+            padding-top: 2rem;
+            font-size: 0.9rem;
+            color: #888;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 3rem;
+            }
+
+            .testimonial,
+            .action-item {
+                flex-direction: column;
+            }
+
+            .action-item:nth-child(even) {
+                flex-direction: column;
+            }
+
+            nav {
+                gap: 1rem;
+            }
+
+            .results-grid {
+                grid-template-columns: 1fr;
+            }
+        }
