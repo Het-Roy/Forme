@@ -32,11 +32,10 @@ FORME is a state-of-the-art smart fitness platform that combines award-winning d
 
 This project is optimized for deployment on **Netlify**. 
 
-- **Method 1**: Connect your GitHub repository to Netlify for automatic continuous deployment.
-- **Method 2**: Drag and drop the `forme` folder into [Netlify Drop](https://app.netlify.com/drop).
+- Connect your GitHub repository to Netlify for automatic continuous deployment.
 
 ---
 
 ## ✍️ Author
-**[Your Name/Username]**
+**Roy Het Jayeshkumar**
 *Developed as a high-fidelity web clone project.*
