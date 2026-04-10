@@ -17,11 +17,10 @@ FORME is a state-of-the-art smart fitness platform that combines award-winning d
 ## 📂 Explore the Pages
 
 <div align="center">
-  <a href="./index.html"><img src="https://formelife.com/cdn/shop/files/FORME_Studio_Commercial_2025_1000x.png?v=1747070450" width="30%" alt="Equipment"></a>
-  <a href="./formeCommercial.html"><img src="https://formelife.com/cdn/shop/files/Frame_3425_copy_2_1000x.png?v=1690316352" width="30%" alt="Commercial"></a>
-  <a href="./formeGolf.html"><img src="https://formelife.com/cdn/shop/files/FORME_Website_Golf_page_hero.png?v=1731456847" width="30%" alt="Golf"></a>
+  <a href="./index.html"><img src="https://res.cloudinary.com/dwpjwccxd/image/upload/q_auto/f_auto/v1775801561/Screenshot_2026-04-10_114140_hh3aol.png" width="30%" alt="Equipment"></a>
+  <a href="./formeCommercial.html"><img src="https://res.cloudinary.com/dwpjwccxd/image/upload/q_auto/f_auto/v1775801555/Screenshot_2026-04-10_114153_vgaktj.png" width="30%" alt="Commercial"></a>
+  <a href="./formeGolf.html"><img src="https://res.cloudinary.com/dwpjwccxd/image/upload/q_auto/f_auto/v1775801556/Screenshot_2026-04-10_114201_bxbnqj.png" width="30%" alt="Golf"></a>
 </div>
----
 
 ## 🛠️ Technology Stack
 
