@@ -21,7 +21,6 @@ FORME is a state-of-the-art smart fitness platform that combines award-winning d
   <a href="./formeCommercial.html"><img src="https://formelife.com/cdn/shop/files/Frame_3425_copy_2_1000x.png?v=1690316352" width="30%" alt="Commercial"></a>
   <a href="./formeGolf.html"><img src="https://formelife.com/cdn/shop/files/FORME_Website_Golf_page_hero.png?v=1731456847" width="30%" alt="Golf"></a>
 </div>
-
 ---
 
 ## 🛠️ Technology Stack
