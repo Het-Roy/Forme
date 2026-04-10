@@ -16,8 +16,6 @@ FORME is a state-of-the-art smart fitness platform that combines award-winning d
 
 ## 📂 Explore the Pages
 
-Click on the images below to explore the different sections of the project (available when running locally or via the deployed link).
-
 <div align="center">
   <a href="./index.html"><img src="https://formelife.com/cdn/shop/files/FORME_Studio_Commercial_2025_1000x.png?v=1747070450" width="30%" alt="Equipment"></a>
   <a href="./formeCommercial.html"><img src="https://formelife.com/cdn/shop/files/Frame_3425_copy_2_1000x.png?v=1690316352" width="30%" alt="Commercial"></a>
