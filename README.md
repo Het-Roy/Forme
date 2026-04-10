@@ -18,10 +18,11 @@ FORME is a state-of-the-art smart fitness platform that combines award-winning d
 
 Click on the images below to explore the different sections of the project (available when running locally or via the deployed link).
 
-| **Equipment (Home)** | **Commercial Solutions** | **Golf Performance** |
-|:---:|:---:|:---:|
-| <a href="./index.html"><img src="https://formelife.com/cdn/shop/files/FORME_Studio_Commercial_2025_1000x.png?v=1747070450" width="200" alt="Equipment"></a> | <a href="./formeCommercial.html"><img src="https://formelife.com/cdn/shop/files/Frame_3425_copy_2_1000x.png?v=1690316352" width="200" alt="Commercial"></a> | <a href="./formeGolf.html"><img src="https://formelife.com/cdn/shop/files/FORME_Website_Golf_page_hero.png?v=1731456847" width="200" alt="Golf"></a> |
-| [View Equipment](./index.html) | [View Commercial](./formeCommercial.html) | [View Golf](./formeGolf.html) |
+<div align="center">
+  <a href="./index.html"><img src="https://formelife.com/cdn/shop/files/FORME_Studio_Commercial_2025_1000x.png?v=1747070450" width="30%" alt="Equipment"></a>
+  <a href="./formeCommercial.html"><img src="https://formelife.com/cdn/shop/files/Frame_3425_copy_2_1000x.png?v=1690316352" width="30%" alt="Commercial"></a>
+  <a href="./formeGolf.html"><img src="https://formelife.com/cdn/shop/files/FORME_Website_Golf_page_hero.png?v=1731456847" width="30%" alt="Golf"></a>
+</div>
 
 ---
 
